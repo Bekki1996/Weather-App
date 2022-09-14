@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="body_bg-container">
+        <div class="body_bg">
+            <input type="text" placeholder="Search.." id="input">
+            <div class="center-wrap">
+                <p class="degree" id="degree">Welcome</p>
+                <p class="city" id="city">to</p>
+                <p class="weather-type" id="weatherType">Weather App</p>
+                <img src="img/main-icon.png" alt="" class="img" id="image">
+            </div>
+
+            <div class="info-wrap">
+                <div class="first p">
+                    <p class="info-title">Country</p>
+                    <p class="info-text" id="country">---</p>
+                </div>
+                <div class="second p">
+                    <p class="info-title">Humidity</p>
+                    <p class="info-text" id="humidity">---</p>
+                </div>
+                <div class="third p">
+                    <p class="info-title">Feels Like</p>
+                    <p class="info-text" id="feelsLike">---</p>
+                </div>
+                <div class="fourth p">
+                    <p class="info-title">Day</p>
+                    <p class="info-text" id="day">---</p>
+                </div>
+                <div class="fifth p">
+                    <p class="info-title">Night</p>
+                    <p class="info-text" id="night">---</p>
+                </div>
+            </div>
+
+            <div class="footer">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
